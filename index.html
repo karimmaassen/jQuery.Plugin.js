@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="dns-prefetch" href="https://ajax.googleapis.com">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>jQuery.plugin.js</title>
+	<meta name="description" content="jQuery.plugin.js">
+	<meta name="author" content="Karim Maassen">
+	<meta name="viewport" content="width=device-width">  
+	<!--<link rel="stylesheet" href="/css/style.css">-->
+</head>
+
+<!--[if lt IE 7]><body class="ie6"><![endif]-->
+<!--[if    IE 7]><body class="ie7"><![endif]-->
+<!--[if    IE 8]><body class="ie8"><![endif]-->
+<!--[if    IE 9]><body class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><body>   <!--<![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="/js/libs/jquery.plugin.js"></script>
+
+<h1>Hello world</h1>
+
+<script type="text/javascript">
+	
+	$('h1')
+
+		.plugin({
+
+			development: 	true,
+			extra: 			'this is cool'
+		})
+
+		.css('opacity', 0.5);
+
+</script>
+
+</body></html>
