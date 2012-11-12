@@ -1,6 +1,6 @@
 //	jQuery.plugin.js =========================================
 //
-//	Version: 		0.2
+//	Version: 		0.2.1
 //	Created: 		2012-05-17
 //	Owner: 			Karim Maassen - contact@karimmaassen.com
 //
