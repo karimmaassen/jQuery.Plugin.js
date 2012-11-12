@@ -155,9 +155,9 @@ $.fn.plugin = function(options) {
 $.fn.plugin.options = {
 
 	development: 	false,
-	value: 			null
+	value: 		null
 };
 
 /*==========================================================*/
 
-})( jQuery, window, document );
+})( jQuery, document, window );
